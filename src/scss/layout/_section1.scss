@@ -1,0 +1,40 @@
+.first_section {
+    padding: 800px 693px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 100px;
+
+    .container-program {
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+        gap: 30px;
+        
+        .image_program {
+            width: 100px;
+        }
+
+        .title_first-section {
+            font-family: Montserrat ;
+        }
+    }
+    .container-marketing {
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+        gap: 30px;
+        .image_marketing {
+            width: 100px;
+        }
+    }
+    .container-design {
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+        gap: 30px;
+        .image_design {
+            width: 100px;
+        }
+    }  
+}
