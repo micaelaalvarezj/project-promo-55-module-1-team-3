@@ -5,13 +5,14 @@
 }
 
 .highlighted{
-    color: #8446E9;
+    color: #8447E9;
 }
+
 
 button{
     margin: 40px;
     padding: 20px;
-    background-color: #8446E9;
+    background-color: #8447E9;
     color: white;
     border: none
 }
@@ -21,3 +22,12 @@ button:hover{
     color: #8446E9;
 }
 
+@media screen and (min-width:1024px) {
+    h1{
+        display: none;
+    }
+
+    img{
+        display: none;
+    }
+}
