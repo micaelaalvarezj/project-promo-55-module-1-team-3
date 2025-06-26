@@ -1,13 +1,18 @@
-.module1{
+.hero{
     display: flex;
     flex-direction: column;
+    font-family: Montserrat;
+    font-size: 30px;
     align-items: center;
 }
 
-.highlighted{
-    color: #8447E9;
+h1{
+    display: none;
 }
 
+.hero-image{
+    display: none;
+}
 
 button{
     margin: 40px;
@@ -23,11 +28,23 @@ button:hover{
 }
 
 @media screen and (min-width:1024px) {
-    h1{
-        display: none;
+    .hero-image{
+        display: flex;
+        justify-content: flex-end;
     }
 
     img{
-        display: none;
+        width: 200px;
     }
+
+    h1{
+     display: block;
+     margin-bottom: 40px;
+
+    }
+
+    .highlighted{
+    color: #8447E9;
+}
+
 }
