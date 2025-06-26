@@ -1,10 +1,79 @@
 @use '../core/variables' as vars;
 
-.page__footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100vw;
-    padding: 1rem;
-    color: vars.$color-secondary;
-}
+// .footer {
+//   // Sección superior con imagen del mar
+//   &__top {
+//     position: relative;
+//     background-image: url('../images/12.jpg');
+//     background-size: cover;
+//     background-position: center;
+//     padding: 80px 20px;
+//     text-align: center;
+//   }
+
+//   &__cta {
+//     position: relative;
+//     z-index: 2;
+//     color: white;
+
+//     .footer__title {
+//       font-size: 32px;
+//       font-weight: 600;
+//       margin-bottom: 20px;
+//     }
+
+//     .footer__btn {
+//       display: inline-block;
+//       padding: 12px 24px;
+//       background-color: #8447E9;
+//       color: white;
+//       text-decoration: none;
+//       border-radius: 4px;
+//       font-weight: 500;
+//       font-size: 16px;
+//     }
+//   }
+
+//   // Sección inferior con ondas, logo y menú
+//   &__bottom {
+//     background-color: #0f0f0f;
+//     background-image: url('../images/4.svg');
+//     background-repeat: no-repeat;
+//     background-position: bottom;
+//     background-size: cover;
+//     padding: 40px 24px;
+//   }
+
+//   &__content {
+//     max-width: 1200px;
+//     margin: 0 auto;
+//     display: flex;
+//     justify-content: space-between;
+//     align-items: center;
+//     flex-wrap: wrap;
+//   }
+
+//   &__logo {
+//     font-family: 'Poppins';
+//     font-weight: 700;
+//     font-size: 24px;
+//     color: #8447E9;
+//   }
+
+//   &__list {
+//     display: flex;
+//     gap: 20px;
+//     list-style: none;
+//     margin: 0;
+//     padding: 0;
+//   }
+
+//   &__link {
+//     color: white;
+//     text-decoration: none;
+
+//     &:hover {
+//       color: #8447E9;
+//     }
+//   }
+// }

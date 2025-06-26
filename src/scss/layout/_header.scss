@@ -1,5 +1,74 @@
-.page__header {
-  display: flex;
-  justify-content: space-evenly;
-  margin-bottom: 3rem;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.header {
+  width: 100%;
+  padding: 0;
+  // background-color: #ffffffd1;
+
+  &__container  {
+    max-width: 1200px;
+    height: 60px;
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 130px;
+    margin-bottom: 50px; /*Esto se quita si hace falta para que el boton de Explora servicios quede bien*/
+  }
+
+  &__logo {
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: -1.65px;
+    color: #8447E9;
+    padding: 0 12px;
+    margin: 0;
+  }
+
+  &__menu-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    margin: 12px 12px;
+   
+
+    img {
+      width: 16px;
+      height: auto;
+      display: block;
+    }
+  }
+
+  &__nav {
+    display: none;
+  }
+
+  &__list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  &__link {
+    font-family: 'Montserrat';
+    font-size: 30px;
+    text-decoration: none;
+    color: #0f0f0f;
+
+    &:hover {
+      color: #8447E9;
+    }
+    
+    &.is-active {
+      color: #8447E9;
+      font-weight: 600;
+    }
+  }
 }
