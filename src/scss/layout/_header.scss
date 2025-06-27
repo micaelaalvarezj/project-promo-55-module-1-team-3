@@ -5,8 +5,6 @@
 }
 .header {
   width: 100%;
-  padding: 0;
-  // background-color: #ffffffd1;
 
   &__container  {
     max-width: 1200px;
@@ -18,7 +16,7 @@
     align-items: center;
     justify-content: space-between;
     gap: 130px;
-    margin-bottom: 50px; /*Esto se quita si hace falta para que el boton de Explora servicios quede bien*/
+    margin-bottom: 50px;
   }
 
   &__logo {
@@ -69,6 +67,108 @@
     &.is-active {
       color: #8447E9;
       font-weight: 600;
+    }
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+  .header {
+    &__container {
+      height: 70px;
+      padding: 0 24px;
+      gap: 40px;
+    }
+
+    &__logo {
+      font-size: 20px;
+      letter-spacing: -1.65px;
+    }
+
+    &__menu-btn {
+      display: none;
+    }
+
+    &__nav {
+      display: flex;
+      align-items: center;
+      gap: 32px;
+    }
+
+    &__list {
+      display: flex;
+      gap: 20px;
+    }
+
+    &__btn {
+      display: none; 
+    }
+
+    &__link {
+      font-size: 16px;         
+    }
+  }
+}
+
+@media (min-width: 1200px) {
+  .header {
+    &__container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 40px;
+      height: 80px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    &__logo {
+      font-size: 24px;
+      letter-spacing: -1.65px;
+    }
+
+    &__menu-btn {
+      display: none; 
+    }
+
+    &__nav {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 250px;
+    }
+
+    &__list {
+      display: flex;
+      gap: 32px;
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    &__link {
+      font-size: 16px;
+      color: #0f0f0f;
+      text-decoration: none;
+
+      &:hover {
+        color: #8447E9;
+      }
+
+      &.is-active {
+        font-weight: 600;
+        color: #8447E9;
+      }
+    }
+
+    &__btn {
+      display: inline-block;
+      background-color: #8447E9;
+      color: white;
+      text-decoration: none;
+      padding: 10px 20px;
+      border-radius: 4px;
+      font-weight: 500;
+      font-size: 16px;
     }
   }
 }
