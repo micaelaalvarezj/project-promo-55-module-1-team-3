@@ -15,27 +15,32 @@
     <div class="page">
       <load src="./partials/header.html" title="Otra página del starter kit" />
       <main class="container__page">
-        <div class="form__block">
-          
-          <h1 class="form__title">Te interesa? hablanos</h1>
-          <form method="post" action="/" class="container__form">
-            <input type="text" name="firstName" placeholder="Nombre" id="firstName">
-            <input type="email" name="email" placeholder="Email" id="email">
-            <input type="text" name="text" placeholder="Cuéntanos de tu proyectos" id="text">
-            <div class="button__contact">
-            <button type="submit">Enviar</button>
+        <div class="form">
+            <div class="title-form-button">
+                <div class="form__title">
+                    <h1>Te interesa?<br/>hablanos</h1>
+                </div>
+                    <div class="form__block">
+                        <form method="post" action="/" class="container__form">
+                            <input type="text" name="firstName" placeholder="Nombre" id="firstName"/>
+                            <input type="email" name="email" placeholder="Email" id="email"/>
+                            <input type="text" name="text" placeholder="Cuéntanos de tu proyectos" id="text"/>
+                            <div class="button__contact">
+                                <button type="submit">Enviar</button>
+                            </div>
+                        </form>
+                    </div>
             </div>
-          </form>
-          
+        <div class="image-form">
+                <img src="./images/map.png" alt="Mapa"/>
         </div>
-        
           <!-- <load
           src="./partials/link.html"
           aClass="link__adalab"
           text="Volver a la página principal"
           url="./index.html"
         /> -->
-      
+      </div>
       </main>
       <load src="./partials/footer.html" />
     </div>

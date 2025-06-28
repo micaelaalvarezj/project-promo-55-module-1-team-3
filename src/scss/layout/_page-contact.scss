@@ -1,85 +1,53 @@
-// .container__page {
-//     min-height: 100vh;
-//   display: flex;
-//   flex-direction: column;
-//   justify-content: center; // 🔄 centra verticalmente
-//   align-items: center;
-//   gap: 20px;    
-// }
+ .container__page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+ }
 
-// .header__title {
-//     width: 100%;
-//   max-width: 400px;
+ .form{
+    width: 80%;
+ }
 
-// }
+ h1 {
+     font-weight: 500;
+     margin-bottom: 50px;
+     
+ }
 
-// h1 {
-//     font-weight: 600;
-//     font-family: 'Montserrat';
-// }
-
-// .container__form {
-//     display: flex;
-//     flex-direction: column;
-//     gap: 20px;
-//     align-items: center;
-// }
-// .button__contact {
-
-// }
-
-.container__page {
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 40px 20px;
-  gap: 10px;
-
+ .container__form {
+     display: flex;
+     flex-direction: column;
+     gap: 20px;
+     align-items: left;
+     input,
+     textarea {
+      border: none;
+      border-bottom: 1px solid #ccc;
+      padding: 10px 5px;
+     }
 }
 
-.form__block {
-  width: 100%;
-  max-width: 420px;
-  display: flex;
-  flex-direction: column;
-  gap: 24px;
-}
-
-.form__title {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 600;
-  font-size: 32px;
-  line-height: 1.2;
+.button__contact {
   text-align: left;
-  color: #000;
+  padding: 20px 0 80px 0;
+  button{
+    padding: 10px 20px;
+    border: none;
+    color: white;
+  }
 }
 
-.form__content {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-
-  input {
-    padding: 12px;
-    border: none;
-    border-bottom: 1px solid #ccc;
-    font-size: 16px;
-    outline: none;
-  }
-
-  button {
-    background-color: #7f4fcf;
-    color: #fff;
-    margin-top: 20px;
-    padding: 6px;
-    border: none;
-    font-size: 16px;
-    
-    
-
-    &:hover {
-      background-color: #693eb2;
+@media screen and (min-width:1200px) {
+    .form{
+        display: flex;
+        flex-direction: row;
     }
-  }
+
+.title-form-button{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 50px;
+}
 }
