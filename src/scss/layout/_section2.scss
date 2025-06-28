@@ -2,12 +2,15 @@
     background-color: #8447e9;
     display: flex;
     flex-direction: column;
+    
 }
 
 .container_second_section{
     display: flex;
     flex-direction: column;
+    justify-content: center;
 }
+
 .title-second_section {
     font-family: "Montserrat";
     font-size: 16px;
@@ -32,6 +35,7 @@
     display: block;
     padding-left: 30px;
     padding-right: 30px;
+
 }
 
 
@@ -71,19 +75,20 @@ button {
 
 
 
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 1200px) {
 
     .container_second_section{
         display: flex;
         flex-direction: row;
+        justify-content: center;
     }
     .desktop-responsive-1{
-        margin-left: 150px;
+        margin-left: 0;
     }
 
     .desktop-responsive-2{
         flex-wrap: wrap;
-        margin-right: 150px;
+        margin-right: 0;
         
     }
     .button-container{
