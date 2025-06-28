@@ -4,6 +4,7 @@
     flex-direction: column;
     align-items: center;
     gap: 20px;
+    margin: 20px;
 }
     p{
         padding: 20px 0 20px 0;
@@ -13,6 +14,10 @@
     font-weight: 400;
     font-size: 30px;
     margin: 40px 0 20px 0;
+}
+
+img{
+    width: 100%;
 }
 
 .button-news{
@@ -31,7 +36,7 @@ button:hover{
     color: white;
 }
 
-@media screen and (min-width:1024px) {
+@media screen and (min-width:1200px) {
     .news-container{
         margin: 0 40px 0 40px;
     }
