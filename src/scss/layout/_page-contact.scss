@@ -1,0 +1,85 @@
+// .container__page {
+//     min-height: 100vh;
+//   display: flex;
+//   flex-direction: column;
+//   justify-content: center; // 🔄 centra verticalmente
+//   align-items: center;
+//   gap: 20px;    
+// }
+
+// .header__title {
+//     width: 100%;
+//   max-width: 400px;
+
+// }
+
+// h1 {
+//     font-weight: 600;
+//     font-family: 'Montserrat';
+// }
+
+// .container__form {
+//     display: flex;
+//     flex-direction: column;
+//     gap: 20px;
+//     align-items: center;
+// }
+// .button__contact {
+
+// }
+
+.container__page {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 20px;
+  gap: 10px;
+
+}
+
+.form__block {
+  width: 100%;
+  max-width: 420px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.form__title {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 1.2;
+  text-align: left;
+  color: #000;
+}
+
+.form__content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+  input {
+    padding: 12px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    font-size: 16px;
+    outline: none;
+  }
+
+  button {
+    background-color: #7f4fcf;
+    color: #fff;
+    margin-top: 20px;
+    padding: 6px;
+    border: none;
+    font-size: 16px;
+    
+    
+
+    &:hover {
+      background-color: #693eb2;
+    }
+  }
+}
