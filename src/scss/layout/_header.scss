@@ -6,7 +6,7 @@
 .header {
   width: 100%;
 
-  &__container  {
+  &__container {
     max-width: 1200px;
     height: 60px;
     margin: 0 auto;
@@ -20,23 +20,22 @@
   }
 
   &__logo {
-    font-family: 'Montserrat';
+    font-family: "Montserrat";
     font-weight: 600;
     font-size: 16px;
     letter-spacing: -1.65px;
-    color: #8447E9;
+    color: #8447e9;
     padding: 0 12px;
     margin: 0;
   }
 
   &__menu-btn {
-    font-family: 'Montserrat';
+    font-family: "Montserrat";
     background: none;
     border: none;
     cursor: pointer;
     padding: 0;
     margin: 12px 12px;
-   
 
     img {
       width: 16px;
@@ -56,17 +55,17 @@
   }
 
   &__link {
-    font-family: 'Montserrat';
+    font-family: "Montserrat";
     font-size: 30px;
     text-decoration: none;
     color: #0f0f0f;
 
     &:hover {
-      color: #8447E9;
+      color: #8447e9;
     }
-    
+
     &.is-active {
-      color: #8447E9;
+      color: #8447e9;
       font-weight: 600;
     }
   }
@@ -101,11 +100,11 @@
     }
 
     &__btn {
-      display: none; 
+      display: none;
     }
 
     &__link {
-      font-size: 16px;         
+      font-size: 16px;
     }
   }
 }
@@ -128,7 +127,7 @@
     }
 
     &__menu-btn {
-      display: none; 
+      display: none;
     }
 
     &__nav {
@@ -152,18 +151,18 @@
       text-decoration: none;
 
       &:hover {
-        color: #8447E9;
+        color: #8447e9;
       }
 
       &.is-active {
         font-weight: 600;
-        color: #8447E9;
+        color: #8447e9;
       }
     }
 
     &__btn {
       display: inline-block;
-      background-color: #8447E9;
+      background-color: #8447e9;
       color: white;
       text-decoration: none;
       padding: 10px 20px;
