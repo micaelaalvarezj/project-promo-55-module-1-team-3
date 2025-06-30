@@ -1,55 +1,55 @@
-.hero{
-    display: flex;
-    flex-direction: column;
-    font-family: "Montserrat";
-    font-size: 30px;
-    align-items: center;
+.hero {
+  display: flex;
+  flex-direction: column;
+  font-family: "Montserrat";
+  font-size: 30px;
+  align-items: center;
 }
 
-.first-header{
-    display: none;
+.first-header {
+  display: none;
 }
 
-.wave-underline{
-    display: none;
+.wave-underline {
+  display: none;
 }
 
-.button-header{
-    padding: 20px;
-    background-color: #8447E9;
-    color: white;
-    border: none;
+.button-header {
+  padding: 20px;
+  background-color: #8447e9;
+  color: white;
+  border: none;
 }
 
-button:hover{
-    background-color: white;
-    color: #8446E9;
+button:hover {
+  background-color: white;
+  color: #8446e9;
 }
 
-@media screen and (min-width:1200px) {
-    .hero{
-        position: relative;
-    }
+@media screen and (min-width: 1200px) {
+  .hero {
+    position: relative;
+  }
 
-    .first-header{
-     display: block;
-     margin-bottom: 20px;
-     font-weight: 550;
-    }
+  .first-header {
+    display: block;
+    margin-bottom: 20px;
+    font-weight: 550;
+  }
 
-    .highlighted{
-    color: #8447E9;
-}
-    .wave-underline{
-        display: block;
-        clip-path: inset(0 30px 0 30px);
-        width: 20%;
-        position: absolute;
-        top: 80px;
-        right: 350px;
-    }
+  .highlighted {
+    color: #8447e9;
+  }
+  .wave-underline {
+    display: block;
+    clip-path: inset(0 30px 0 30px);
+    width: 20%;
+    position: absolute;
+    top: 80px;
+    right: 350px;
+  }
 
-    .button-header{
-        margin-top: 100px;
-}
+  .button-header {
+    margin-top: 100px;
+  }
 }

@@ -4,9 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Ada Dev Formulario</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./scss/main.scss" />
     <link rel="icon" href="./images/favicon.png" />
   </head>
@@ -16,31 +19,46 @@
       <load src="./partials/header.html" title="Otra página del starter kit" />
       <main class="container__page">
         <div class="form">
-            <div class="title-form-button">
-                <div class="form__title">
-                    <h1>Te interesa?<br/>hablanos</h1>
-                </div>
-                    <div class="form__block">
-                        <form method="post" action="/" class="container__form">
-                            <input type="text" name="firstName" placeholder="Nombre" id="firstName"/>
-                            <input type="email" name="email" placeholder="Email" id="email"/>
-                            <input type="text" name="text" placeholder="Cuéntanos de tu proyectos" id="text"/>
-                            <div class="button__contact">
-                                <button type="submit">Enviar</button>
-                            </div>
-                        </form>
-                    </div>
+          <div class="title-form-button">
+            <div class="form__title">
+              <h1>Te interesa?<br />hablanos</h1>
             </div>
-        <div class="image-form">
-                <img src="./images/map.png" alt="Mapa"/>
-        </div>
+            <div class="form__block">
+              <form method="post" action="/" class="container__form">
+                <input
+                  type="text"
+                  name="firstName"
+                  placeholder="Nombre"
+                  id="firstName"
+                />
+                <input
+                  type="email"
+                  name="email"
+                  placeholder="Email"
+                  id="email"
+                />
+                <input
+                  type="text"
+                  name="text"
+                  placeholder="Cuéntanos de tu proyectos"
+                  id="text"
+                />
+                <div class="button__contact">
+                  <button type="submit">Enviar</button>
+                </div>
+              </form>
+            </div>
+          </div>
+          <div class="image-form">
+            <img src="./images/map.png" alt="Mapa" />
+          </div>
           <!-- <load
           src="./partials/link.html"
           aClass="link__adalab"
           text="Volver a la página principal"
           url="./index.html"
         /> -->
-      </div>
+        </div>
       </main>
       <load src="./partials/footer.html" />
     </div>
