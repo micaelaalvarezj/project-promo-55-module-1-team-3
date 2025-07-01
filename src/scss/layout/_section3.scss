@@ -29,12 +29,12 @@ img {
     border-color: #8447e9;
     padding: 15px 40px 15px 40px;
     background-color: white;
-  }
-}
 
-button:hover {
-  background-color: #8446e9;
-  color: white;
+    &:hover {
+      background-color: #8446e9;
+      color: white;
+    }
+  }
 }
 
 @media screen and (min-width: 1200px) {

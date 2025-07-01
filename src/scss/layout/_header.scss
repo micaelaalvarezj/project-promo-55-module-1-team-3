@@ -73,7 +73,7 @@
     text-decoration: none;
     color: #0f0f0f;
 
-    &:hover {
+  &:hover {
       color: #8447e9;
     }
 
@@ -194,6 +194,7 @@
       border-radius: 4px;
       font-weight: 500;
       font-size: 16px;
+      border:none;
     }
   }
 }

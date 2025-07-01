@@ -16,30 +16,51 @@
 
   <body>
     <div>
-      <load src="./partials/header.html" title="Otra página del starter kit" />
+      <header class="header">
+        <div class="header__container">
+          <span class="header__logo">AdaDev</span>
+
+          <button class="header__menu-btn" aria-label="Abrir menú">
+            <img src="./images/Menu-burguesa.png" alt="Menú hamburguesa" />
+          </button>
+
+          <nav class="header__nav">
+            <ul class="header__list">
+              <li><a href="index.html" class="header__link">Home</a></li>
+              <li><a href="about-us.html" class="header__link is-active">Nosotros</a></li>
+              <li><a href="#" class="header__link">Blog</a></li>
+              <li><a href="#" class="header__link">Servicios</a></li>
+            </ul>
+
+            <a href="page-contact.html" class="header__btn">
+              Contáctanos ➞ <i class="fa-solid fa-arrow-right"></i>
+            </a>
+          </nav>
+        </div>
+      </header>
       <main>
-        <h1>El equipo</h1>
+        <h1 class="team-header">El equipo</h1>
         <div class="team-container">
-            <div class="team-1">
-                <img src="./images/Karen.jpg" alt="Karen" />
-                <h2>Karen</h2>
-                <p>Lorem ipsum dolor</p>
-            </div>
-            <div class="team-2">
-                <img src="./images/Laura.jpg" alt="Laura" />
-                <h2>Laura</h2>
-                <p>Lorem ipsum dolor</p>
-            </div>
-            <div class="team-3">
-                <img src="./images/Mica.jpg" alt="Micaela" />
-                <h2>Mica</h2>
-                <p>Lorem ipsum dolor</p>
-            </div>
-            <div class="team-4">
-                <img src="./images/Silvia.jpg" alt="Silvia" />
-                <h2>Silvia</h2>
-                <p>Lorem ipsum dolor</p>
-            </div>
+          <div class="team-1">
+            <img class="team-photo" src="./images/Karen.jpg" alt="Karen" />
+            <h2 class="team-name">Karen</h2>
+            <p>Lorem ipsum dolor</p>
+          </div>
+          <div class="team-2">
+            <img class="team-photo" src="./images/Laura.jpg" alt="Laura" />
+            <h2 class="team-name">Laura</h2>
+            <p>Lorem ipsum dolor</p>
+          </div>
+          <div class="team-3">
+            <img class="team-photo" src="./images/Mica.jpg" alt="Micaela" />
+            <h2 class="team-name">Mica</h2>
+            <p>Lorem ipsum dolor</p>
+          </div>
+          <div class="team-4">
+            <img class="team-photo" src="./images/Silvia.jpg" alt="Silvia" />
+            <h2 class="team-name">Silvia</h2>
+            <p>Lorem ipsum dolor</p>
+          </div>
         </div>
       </main>
       <load src="./partials/footer.html" />

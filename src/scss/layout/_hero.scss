@@ -19,11 +19,11 @@
   background-color: #8447e9;
   color: white;
   border: none;
-}
 
-button:hover {
-  background-color: white;
-  color: #8446e9;
+  &:hover {
+    background-color: white;
+    color: #8446e9;
+  }
 }
 
 @media screen and (min-width: 1200px) {
